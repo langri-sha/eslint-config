@@ -62,7 +62,7 @@
   "peerDependencies": {
     "eslint": "^10.4.0"
   },
-  "packageManager": "pnpm@12.7.0",
+  "packageManager": "pnpm@12.8.0",
   "devEngines": {
     "runtime": {
       "name": "node",
