@@ -2,6 +2,21 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Thu, 01 Oct 2026 15:51:24 GMT",
+      "version": "0.9.17",
+      "tag": "@langri-sha/eslint-config_v0.9.17",
+      "comments": {
+        "patch": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "91c6cb701c1a2824cf522a9c1473e765c7be149d",
+            "comment": "Publish from langri-sha/eslint-config, which now owns this package and its history"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 30 Sep 2026 11:26:36 GMT",
       "version": "0.9.16",
       "tag": "@langri-sha/eslint-config_v0.9.16",
