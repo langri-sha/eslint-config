@@ -1,8 +1,23 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Thu, 01 Oct 2026 15:51:24 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 02 Oct 2026 20:05:25 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.18
+
+Fri, 02 Oct 2026 20:05:25 GMT
+
+### Patches
+
+- Update dependency pnpm to v12.8.0
+- fix(deps): update dependency typescript-eslint to v8.71.0
+- fix(deps): update dependency eslint-plugin-jsdoc to v65
+- fix(deps): update dependency pnpm to v12.8.1
+- chore(deps): update dependency @langri-sha/tsconfig to v1.1.0
+- Drop the ambient declaration for eslint-plugin-import, which nothing imports (filip.dupanovic@gmail.com)
+- chore(deps): update dependency @langri-sha/tsconfig to v1.0.2
+- chore(deps): update langri-sha projen toolchain
 
 ## 0.9.17
 

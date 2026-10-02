@@ -2,6 +2,63 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Fri, 02 Oct 2026 20:05:25 GMT",
+      "version": "0.9.18",
+      "tag": "@langri-sha/eslint-config_v0.9.18",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "Update dependency pnpm to v12.8.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "fix(deps): update dependency typescript-eslint to v8.71.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "fix(deps): update dependency pnpm to v12.8.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "chore(deps): update dependency @langri-sha/tsconfig to v1.1.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "Drop the ambient declaration for eslint-plugin-import, which nothing imports"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "chore(deps): update dependency @langri-sha/tsconfig to v1.0.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "c31e8aa21af8dddc914c2ba673d96e4e3790d04f",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          }
+        ]
+      }
+    },
+    {
       "date": "Thu, 01 Oct 2026 15:51:24 GMT",
       "version": "0.9.17",
       "tag": "@langri-sha/eslint-config_v0.9.17",
