@@ -32,7 +32,7 @@ const project = new Project({
       'eslint-plugin-react@7.37.5',
       'eslint-plugin-react-hooks@7.1.1',
       'eslint-plugin-unicorn@76.0.0',
-      'globals@17.12.0',
+      'globals@17.13.0',
       'typescript-eslint@8.71.0',
     ],
     devDeps: [
