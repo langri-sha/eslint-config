@@ -1,0 +1,7 @@
+{
+  "type": "patch",
+  "comment": "Write a README that describes the config and how to use it",
+  "packageName": "@langri-sha/eslint-config",
+  "email": "filip.dupanovic@gmail.com",
+  "dependentChangeType": "patch"
+}
