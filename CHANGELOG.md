@@ -1,8 +1,26 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Fri, 02 Oct 2026 20:05:25 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 07 Oct 2026 10:15:21 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.9.19
+
+Wed, 07 Oct 2026 10:15:21 GMT
+
+### Patches
+
+- fix(deps): update dependency pnpm to v12.9.1
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.0.2
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.1.0
+- fix(deps): update dependency eslint-plugin-unicorn to v77
+- chore(deps): update langri-sha projen toolchain
+- fix(deps): update dependency globals to v17.13.0
+- chore(deps): update dependency @langri-sha/projen-project to v0.32.0
+- Write a README that describes the config and how to use it (filip.dupanovic@gmail.com)
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.0.1
+- fix(deps): update dependency pnpm to v12.8.2
+- fix(deps): update dependency pnpm to v12.9.0
 
 ## 0.9.18
 
