@@ -36,10 +36,10 @@ const project = new Project({
       'typescript-eslint@8.71.0',
     ],
     devDeps: [
-      '@langri-sha/lint-staged@0.9.9',
-      '@langri-sha/prettier@0.4.10',
+      '@langri-sha/lint-staged@0.9.10',
+      '@langri-sha/prettier@0.4.11',
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.1.0',
+      '@langri-sha/tsconfig@1.1.1',
     ],
     peerDeps: ['eslint@^10.4.0'],
   },
