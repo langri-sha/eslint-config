@@ -179,8 +179,8 @@ importers:
         specifier: 4.17.1
         version: 4.17.1(@typescript-eslint/utils@8.71.1(eslint@10.12.0)(typescript@5.9.3))(eslint@10.12.0)
       eslint-plugin-jsdoc:
-        specifier: 65.1.0
-        version: 65.1.0(eslint@10.12.0)(typescript@5.9.3)
+        specifier: 65.2.0
+        version: 65.2.0(eslint@10.12.0)(typescript@5.9.3)
       eslint-plugin-prettier:
         specifier: 5.5.6
         version: 5.5.6(eslint-config-prettier@10.1.8(eslint@10.12.0))(eslint@10.12.0)(prettier@3.9.9)
@@ -601,6 +601,7 @@ packages:
 
   '@langri-sha/projen-babel@0.5.17':
     resolution: {integrity: sha512-f+QkEMgt5R9DEpLA71ZjNJpsEJaZ8y+chwr1eDeb+vmjYyFhQNDs8Am0v9bxDzMzUhH/RMLR3zx0ld07BB/M9Q==}
+    deprecated: Renamed to projen-babel-config
     peerDependencies:
       '@babel/core': ^8.0.0
       projen: ^0.86.0
@@ -610,6 +611,7 @@ packages:
 
   '@langri-sha/projen-beachball@0.5.14':
     resolution: {integrity: sha512-7HeWQxmmtHIcGgowvs2TjyCFvHk0kK6ggakUxybUMqcgzSmAIA/HB6d3LMPrZEPvlb8PffkVxi1CllJryL9zQQ==}
+    deprecated: Renamed to projen-beachball
     peerDependencies:
       beachball: ^2.0.0
       projen: ^0.86.0
@@ -619,26 +621,31 @@ packages:
 
   '@langri-sha/projen-cargo@0.1.9':
     resolution: {integrity: sha512-pXmBsq4iazt9QcHz3Yp2yIZC8yNbU3qjeNl9BCfXQ5C0roY48KUiSReeZEOuSVIKsgK3uzRN1+RlZzd1AOlxOQ==}
+    deprecated: Renamed to projen-cargo
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-codeowners@0.5.14':
     resolution: {integrity: sha512-KAiUVHg/A3gqONBQHIZkSXkXdCHAyBJKmIUPw8wL5jo9h6ubBjJCcEvfsV3/VFsIEoleG3N2g0OgyFXmCy0B0Q==}
+    deprecated: Renamed to projen-codeowners
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-dagger@0.3.2':
     resolution: {integrity: sha512-u9Lz6pMRR+6wBtvSC5k2M9tvD7AN8A7L0sqQlJl69fxsFWBV8Hwm024XZwE7QJP/uvHVnGbK6pmpWniiI1Yfxw==}
+    deprecated: Renamed to projen-dagger
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-editorconfig@0.6.14':
     resolution: {integrity: sha512-+ysLj+aJTuZMCIedO7ThPgT6kAvlLnoLfbqdQW0oL2U1+R2Ucb2zlLrjAh3F1lFEMiL43v0hrMMUoTpdiOETbg==}
+    deprecated: Renamed to projen-editorconfig
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-eslint@0.3.18':
     resolution: {integrity: sha512-7gnPjDMpL+9Z8WlWs2thzIE3yUgQMH7zyFO5NhUrYI4Kw+avuW8PGGfOB7mgYi4Qf1LwsXPbQ6/Iv9d9L2i1Pg==}
+    deprecated: Renamed to projen-eslint
     peerDependencies:
       eslint: ^10.4.0
       projen: ^0.86.0
@@ -648,6 +655,7 @@ packages:
 
   '@langri-sha/projen-husky@0.3.24':
     resolution: {integrity: sha512-4wVfn17zhgYiR/plXeHZh6ww8UBnmS+Zq9HnNZeo+BbwIi487fz2IGIrTrt31jVtcP/Qyi5lzX0R0yjMSJPPbw==}
+    deprecated: Renamed to projen-husky
     peerDependencies:
       husky: ^9.0.1
       projen: ^0.86.0
@@ -657,6 +665,7 @@ packages:
 
   '@langri-sha/projen-jest-config@0.4.19':
     resolution: {integrity: sha512-2Sus/v41h8y0/xKgevXGrWJdp7oSUJY3xhcGrsBqNHY7kBe5QuzSU9ul8kdmJnv0cJwHyyvhelA2TXPyn4gN1Q==}
+    deprecated: Renamed to projen-jest-config
     peerDependencies:
       jest: ^30.0.0
       projen: ^0.86.0
@@ -666,11 +675,13 @@ packages:
 
   '@langri-sha/projen-license@0.3.17':
     resolution: {integrity: sha512-dzRSgS/Szu614FY8dpW60LfYT8bCyhk+XhDmNPhZ+VHoBf0JVh0mWJpvvPheAB4+Qa6KS1AO1RGnvEcCnB3rfg==}
+    deprecated: Renamed to projen-license
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-lint-staged@0.3.19':
     resolution: {integrity: sha512-6FWxKAL8XAxKyMLtu16XjrfNRcoMblY8rocMDT3xo/dEA0cVgWokR6oXrtgUIfWOkTa59PQJO/3GQgfTAa94dw==}
+    deprecated: Renamed to projen-lint-staged
     peerDependencies:
       lint-staged: ^17.0.0
       projen: ^0.86.0
@@ -680,16 +691,19 @@ packages:
 
   '@langri-sha/projen-lint-synthesized@0.5.18':
     resolution: {integrity: sha512-35QJEwdSP7nfR/rfwCVvx2P19h8EHXrKSrobxTdlk0Ng0FwU93vcHAMNTMYwSQcnIUQNPT+AqP5ectbxCLawEw==}
+    deprecated: Renamed to projen-lint-synthesized
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-pnpm-workspace@0.4.14':
     resolution: {integrity: sha512-z9q3pJrWaq4i3YSMmkobpGh0giXEooi0agJWRKdmdE1QpKoYXUZK1ceMaZoEtyowhdGrdJrunIBkiWgxRfMwmw==}
+    deprecated: Renamed to projen-pnpm-workspace
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-prettier@0.4.19':
     resolution: {integrity: sha512-2Kii0Qq2LaV34QaPpMX4iusWEOli5M7QcTc1/1TSDqj5eTgnRaCtlg6WjYSLELNK5VHurV4c0cT2AGvSYgx7XA==}
+    deprecated: Renamed to projen-prettier
     peerDependencies:
       prettier: ^3.0.0
       projen: ^0.86.0
@@ -738,21 +752,25 @@ packages:
 
   '@langri-sha/projen-readme@0.1.14':
     resolution: {integrity: sha512-U6z5ze9DkVbRHT5RcvBisRhAkwF50NF1geb38mfvgGapeyKSsevDLT5ePAHSk5xyb20QUNvPu2pfMlSeq8b3Sg==}
+    deprecated: Renamed to projen-readme
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-renovate@0.4.26':
     resolution: {integrity: sha512-WdJ+j575xjy6zgLLdZgGgUL6F8AtdYB3QMmCeFRfJg3JrvXIwxDIQVTDBLclPVIiML/o8NooTBYUsWGdOCIWiQ==}
+    deprecated: Renamed to projen-renovate
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-ruff@0.1.0':
     resolution: {integrity: sha512-74fYfI5ZfPN19aJhWzBSLOtwOAq3pvpKjjxW3bXqUlFRvfDEPAdn97eZSgD83fq4Z5uyvV2TrC+KfqZN07/qRQ==}
+    deprecated: Renamed to projen-ruff
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-swcrc@0.1.26':
     resolution: {integrity: sha512-AEmZAppdt9fN9A8SsVokH8GfoqTI7/+f6uo6MaBel5XrXyX6IVBpGwXGJ94jPFZ1cMqsfDXxhgwlAfeXWcx3Tg==}
+    deprecated: Renamed to projen-swcrc
     peerDependencies:
       '@swc/core': ^1.6.0
       projen: ^0.86.0
@@ -762,21 +780,25 @@ packages:
 
   '@langri-sha/projen-ty@0.1.0':
     resolution: {integrity: sha512-UMhyU1XInqbfL04wIwwVNjDeR/vgtJltlJOy1vOzx2mL6LuFDJ9TQ0g+IGTYjobS6V52LoJA5sCyLbgZzmB71A==}
+    deprecated: Renamed to projen-ty
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-typescript-config@0.5.22':
     resolution: {integrity: sha512-TqmlPjEcS1r5Af9FbdMwHWvRhecgBT7nqdW7/yVs1+t8O+aYXwqMHWhQ6W9fTkBKBnaT3KknR/vd1S9jlrc8/w==}
+    deprecated: Renamed to projen-typescript-config
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-uv@0.1.6':
     resolution: {integrity: sha512-6Y+sHarF6KPTG5clYA5N0JtphqxxWNBeONFo7B1L32OIXGxkDL5mnxCQs3AoDnVa/B5SccVlpFjMjo+6eFO7oA==}
+    deprecated: Renamed to projen-uv
     peerDependencies:
       projen: ^0.86.0
 
   '@langri-sha/projen-worktrunk@0.1.5':
     resolution: {integrity: sha512-iDiV1G/8DAYsrnjAdRKo/yGSoSQGdaIp/BmaJ/DWzkEUU7m2Qz8YTOjOz7+3iJcOf6w7djJbtVSTXXxpkfkw4w==}
+    deprecated: Renamed to projen-worktrunk
     peerDependencies:
       projen: ^0.86.0
 
@@ -1317,8 +1339,8 @@ packages:
       eslint-import-resolver-node:
         optional: true
 
-  eslint-plugin-jsdoc@65.1.0:
-    resolution: {integrity: sha512-P7levv6MorzYZ85Yy/UVOAY9FKxwU6NJ9+c02QPYhzoIVg007OCtMi+9na8Xkho64Bu89QguoLSxH78YSmy1Zg==}
+  eslint-plugin-jsdoc@65.2.0:
+    resolution: {integrity: sha512-IMZaNwdDa5otUQYGWN1pzywZLsGKswitvFFNhcO8IOsBfaWpWIDXYuZh2sYhe9MNyKN9hz0YryOFaKdpbTP5Bw==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -3499,7 +3521,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-jsdoc@65.1.0(eslint@10.12.0)(typescript@5.9.3):
+  eslint-plugin-jsdoc@65.2.0(eslint@10.12.0)(typescript@5.9.3):
     dependencies:
       '@es-joy/jsdoccomment': 0.98.0
       '@es-joy/resolve.exports': 1.2.0
