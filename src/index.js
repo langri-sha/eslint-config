@@ -105,6 +105,13 @@ export default [
   },
   prettier,
   {
+    // Prettier's config turns `curly` off, so this has to follow it.
+    files: ['**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}'],
+    rules: {
+      curly: ['error', 'all'],
+    },
+  },
+  {
     files: ['*.{js,cjs,mjs}'],
     rules: {
       '@typescript-eslint/no-var-requires': 'off',
