@@ -87,6 +87,7 @@ const project = new Project({
       '/AGENTS.md',
       '/CODEOWNERS',
       '/change/',
+      '/test/',
     ],
   },
   pnpmWorkspace: {
@@ -128,6 +129,7 @@ project.package?.addField('devEngines', {
   },
 })
 
+project.package?.setScript('test', 'node --test')
 project.package?.setScript(
   'prepublishOnly',
   'rm -rf dist; tsc --project tsconfig.build.json',
