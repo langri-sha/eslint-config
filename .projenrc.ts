@@ -36,7 +36,7 @@ const project = new Project({
       'typescript-eslint@8.71.1',
     ],
     devDeps: [
-      '@langri-sha/lint-staged@0.9.10',
+      '@langri-sha/lint-staged@0.9.11',
       '@langri-sha/prettier@0.4.11',
       '@langri-sha/projen-project@*',
       '@langri-sha/tsconfig@1.1.1',
