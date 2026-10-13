@@ -29,7 +29,7 @@ pnpm change                             # write a change file
 ```
 
 `test/` drives ESLint's `Linter` against `src/index.js`. It is not in the
-tarball and the shared check workflow does not run it, so run it locally.
+tarball, and the Workspace workflow runs it through the shared `vitest` input.
 
 ## Linting with itself
 
