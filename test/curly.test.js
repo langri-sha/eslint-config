@@ -1,7 +1,5 @@
-import assert from 'node:assert/strict'
-import { describe, test } from 'node:test'
-
 import { Linter } from 'eslint'
+import { describe, expect, test } from 'vitest'
 
 import config from '../src/index.js'
 
@@ -30,7 +28,7 @@ describe('curly', () => {
 
     for (const [name, code] of Object.entries(cases)) {
       test(name, () => {
-        assert.equal(curlyMessages(code).length, 1)
+        expect(curlyMessages(code)).toHaveLength(1)
       })
     }
   })
@@ -49,7 +47,7 @@ describe('curly', () => {
 
     for (const [name, code] of Object.entries(cases)) {
       test(name, () => {
-        assert.deepEqual(curlyMessages(code), [])
+        expect(curlyMessages(code)).toEqual([])
       })
     }
   })
@@ -57,7 +55,7 @@ describe('curly', () => {
   describe('applies to every linted extension', () => {
     for (const extension of ['js', 'cjs', 'mjs', 'jsx', 'ts', 'mts', 'tsx']) {
       test(extension, () => {
-        assert.equal(curlyMessages('if (a) f()', `case.${extension}`).length, 1)
+        expect(curlyMessages('if (a) f()', `case.${extension}`)).toHaveLength(1)
       })
     }
   })
