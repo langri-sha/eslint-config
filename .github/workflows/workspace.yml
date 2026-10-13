@@ -21,4 +21,5 @@ jobs:
       prettier: true
       projen: true
       typescript: true
+      vitest: true
     secrets: inherit
