@@ -23,11 +23,13 @@ settings, branch protection and the Actions secrets are managed by
 pnpm install
 pnpm projen                             # re-synthesize from .projenrc.ts
 pnpm tsc --build .                      # typecheck
+pnpm test                               # node --test over test/
 pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```
 
-There are no tests.
+`test/` drives ESLint's `Linter` against `src/index.js`. It is not in the
+tarball and the shared check workflow does not run it, so run it locally.
 
 ## Linting with itself
 
