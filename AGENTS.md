@@ -23,7 +23,7 @@ settings, branch protection and the Actions secrets are managed by
 pnpm install
 pnpm projen                             # re-synthesize from .projenrc.ts
 pnpm tsc --build .                      # typecheck
-pnpm test                               # node --test over test/
+pnpm test                               # vitest run over test/
 pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```

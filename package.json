@@ -31,7 +31,7 @@
     "prepare": "husky",
     "prepublishOnly": "rm -rf dist; tsc --project tsconfig.build.json",
     "renovate": "projen renovate",
-    "test": "node --test",
+    "test": "vitest run",
     "worktrunk:dry-run": "projen worktrunk:dry-run",
     "worktrunk:show": "projen worktrunk:show"
   },

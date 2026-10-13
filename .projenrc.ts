@@ -130,7 +130,7 @@ project.package?.addField('devEngines', {
   },
 })
 
-project.package?.setScript('test', 'node --test')
+project.package?.setScript('test', 'vitest run')
 project.package?.setScript(
   'prepublishOnly',
   'rm -rf dist; tsc --project tsconfig.build.json',
