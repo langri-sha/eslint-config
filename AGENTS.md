@@ -25,8 +25,14 @@ pnpm eslint . && pnpm prettier --check .
 pnpm change                             # write a change file
 ```
 
-`test/` drives ESLint's `Linter` against `src/index.js`. It is not in the
-tarball, and the Workspace workflow runs it through the shared `vitest` input.
+`test/` drives ESLint's `Linter` against `src/index.js` and is not in the
+tarball.
+
+CI (`workspace.yml` → `langri-sha/github` `check.yml`) runs ESLint, Prettier,
+the `package.json` checks, `tsc --build`, Vitest and, on pull requests,
+`beachball check`. It fails when synthesized files drift from `.projenrc.ts` or
+the package lacks a change file. On Renovate pull requests it re-synthesizes and
+commits the result.
 
 ## Linting with itself
 
