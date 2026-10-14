@@ -57,21 +57,10 @@ skipped, so the workflow is safe to rerun.
 
 `main` points at `src/index.js` in the repository, and `publishConfig` swaps
 `main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
-`src/` beside `dist/`, as every release from `langri-sha/projen` did.
-`src/eslint-config.d.ts` holds ambient module declarations for some of the
-plugins `src/index.js` imports; `tsc` emits nothing for it, so it ships in
-`src/` only.
+`src/` beside `dist/`. `src/eslint-config.d.ts` holds ambient module
+declarations for some of the plugins `src/index.js` imports; `tsc` emits nothing
+for it, so it ships in `src/` only.
 
 There is deliberately no `engines` field. Published from the root, it would bind
 consumers to the Node.js release this repository is developed on, so that lives
 in `devEngines`, where `actions/setup-node` reads it.
-
-## Provenance
-
-Extracted from `langri-sha/projen` at `6417104d` on 2026-10-01 with
-`git filter-repo --subdirectory-filter packages/eslint-config`. All 305 commits
-that touched the package keep their trees, authorship, dates and messages. The
-history reaches back to 2021-07-11, when the package started in
-`langri-sha/langri-sha.com`, which handed it to projen on 2026-07-20. Issue and
-pull request numbers in those older messages refer to the two source
-repositories.
