@@ -1,8 +1,34 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Wed, 07 Oct 2026 10:15:21 GMT and should not be manually modified. -->
+<!-- This log was last generated on Wed, 14 Oct 2026 00:17:50 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.10.0
+
+Wed, 14 Oct 2026 00:17:50 GMT
+
+### Minor changes
+
+- Require braces around control-flow bodies (filip.dupanovic@gmail.com)
+
+### Patches
+
+- chore(deps): update langri-sha projen toolchain
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.2.1
+- Use Project.presetPackages for the release age exemption (filip.dupanovic@gmail.com)
+- fix(deps): update dependency pnpm to v12.11.1
+- fix(deps): update dependency typescript-eslint to v8.71.1
+- chore(deps): update dependency @langri-sha/projen-project to v0.36.0
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.2.0
+- fix(deps): update dependency pnpm to v12.11.2
+- chore(deps): update langri-sha projen toolchain
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.2.4
+- chore(deps): update dependency @langri-sha/projen-project to v0.33.0
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.2.2
+- fix(deps): update dependency pnpm to v12.11.0
+- fix(deps): update dependency pnpm to v12.10.0
+- fix(deps): update dependency pnpm to v12.10.1
 
 ## 0.9.19
 

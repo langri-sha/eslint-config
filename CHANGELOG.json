@@ -2,6 +2,121 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Wed, 14 Oct 2026 00:17:50 GMT",
+      "version": "0.10.0",
+      "tag": "@langri-sha/eslint-config_v0.10.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65.2.1"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "Use Project.presetPackages for the release age exemption"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency pnpm to v12.11.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency typescript-eslint to v8.71.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.36.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65.2.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency pnpm to v12.11.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "chore(deps): update langri-sha projen toolchain"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65.2.4"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.33.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65.2.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency pnpm to v12.11.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency pnpm to v12.10.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "fix(deps): update dependency pnpm to v12.10.1"
+          }
+        ],
+        "none": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "Opt into the default Worktrunk hooks"
+          }
+        ],
+        "minor": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "93cce4069c10a9d5c9b0e1803aba83855d9a3162",
+            "comment": "Require braces around control-flow bodies"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 07 Oct 2026 10:15:21 GMT",
       "version": "0.9.19",
       "tag": "@langri-sha/eslint-config_v0.9.19",
