@@ -54,8 +54,8 @@ notes; a tag that already has a release is skipped, so the workflow is safe to
 rerun. Beachball's own `gitTags` stays off, since it would name the tags
 `@langri-sha/eslint-config_v<version>`.
 
-`main` points at `src/index.js` in the repository, and `publishConfig` swaps
-`main` and `types` for `dist/`, which `prepublishOnly` builds. The tarball ships
+`main` points at `src/index.js` in the repository, and `publishConfig` points
+`main` and `types` at `dist/`, which `prepublishOnly` builds. The tarball ships
 `src/` beside `dist/`. `src/eslint-config.d.ts` holds ambient module
 declarations for some of the plugins `src/index.js` imports; `tsc` emits nothing
 for it, so it ships in `src/` only.
