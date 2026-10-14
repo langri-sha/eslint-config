@@ -1,5 +1,5 @@
+import { describe, expect, test } from '@langri-sha/vitest'
 import { Linter } from 'eslint'
-import { describe, expect, test } from 'vitest'
 
 import config from '../src/index.js'
 
