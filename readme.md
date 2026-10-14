@@ -21,6 +21,12 @@ import config from '@langri-sha/eslint-config'
 export default [...config, { ignores: ['**/dist/'] }]
 ```
 
+## Contributing
+
+See [CONTRIBUTING.md] in `langri-sha/github`.
+
+[contributing.md]:
+  https://github.com/langri-sha/github/blob/main/CONTRIBUTING.md
 [eslint]: https://eslint.org/docs/latest/use/getting-started
 [prettier]: https://prettier.io/docs/
 [typescript-eslint]: https://typescript-eslint.io/
