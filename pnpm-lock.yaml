@@ -179,8 +179,8 @@ importers:
         specifier: 4.17.1
         version: 4.17.1(@typescript-eslint/utils@8.71.1(eslint@10.12.0)(typescript@5.9.3))(eslint@10.12.0)
       eslint-plugin-jsdoc:
-        specifier: 65.2.4
-        version: 65.2.4(eslint@10.12.0)(typescript@5.9.3)
+        specifier: 65.3.0
+        version: 65.3.0(eslint@10.12.0)(typescript@5.9.3)
       eslint-plugin-prettier:
         specifier: 5.5.6
         version: 5.5.6(eslint-config-prettier@10.1.8(eslint@10.12.0))(eslint@10.12.0)(prettier@3.9.9)
@@ -1343,8 +1343,8 @@ packages:
       eslint-import-resolver-node:
         optional: true
 
-  eslint-plugin-jsdoc@65.2.4:
-    resolution: {integrity: sha512-qUxkOefjBnCluHfdXBTqouxH7haiVNmeJ5H3doi5qzOF3l2xsZc0/ZhpqZko1220tNnrHk/HXv8VPnQ28cOnzg==}
+  eslint-plugin-jsdoc@65.3.0:
+    resolution: {integrity: sha512-AjrBSsZi//gfCP/NUw7RdNn+4UCds36YhfS3RK/iHR7TpiPSf5LcL/G/vfHXeHZ9zo7SQuVri84Xah7uugfdTA==}
     engines: {node: ^22.22.2 || >=24.15.0}
     peerDependencies:
       eslint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0
@@ -2488,10 +2488,6 @@ packages:
     resolution: {integrity: sha512-j7WyPdf0CJoutMzMoPLF/bVXHtKZIT9Rb4eGeEbWw8X2t5oirjPgpL+OpaENZrILYaXqYwnVH+qgUwVbl+pUJQ==}
     engines: {node: '>= 18'}
 
-  source-map-js@1.2.1:
-    resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==}
-    engines: {node: '>=0.10.0'}
-
   source-map-js@1.2.2:
     resolution: {integrity: sha512-KGj/8Y43x35aZVDtt+J4mK1hoLGHULMYfSkODJNQjNDC3oW1PqPoxMwo0pLUsWM/UEGzON/NxeHywEfNXNP3Vw==}
     engines: {node: '>=0.10.0'}
@@ -3072,7 +3068,7 @@ snapshots:
   '@eslint/css-tree@4.1.1':
     dependencies:
       mdn-data: 2.35.0
-      source-map-js: 1.2.1
+      source-map-js: 1.2.2
 
   '@eslint/js@10.0.1(eslint@10.12.0)':
     optionalDependencies:
@@ -3914,7 +3910,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-jsdoc@65.2.4(eslint@10.12.0)(typescript@5.9.3):
+  eslint-plugin-jsdoc@65.3.0(eslint@10.12.0)(typescript@5.9.3):
     dependencies:
       '@es-joy/jsdoccomment': 0.98.0
       '@es-joy/resolve.exports': 1.2.0
@@ -5075,8 +5071,6 @@ snapshots:
   sisteransi@1.0.5: {}
 
   smol-toml@1.9.1: {}
-
-  source-map-js@1.2.1: {}
 
   source-map-js@1.2.2: {}
 
