@@ -73,6 +73,7 @@ const project = new Project({
   codeowners: {
     '*': '@langri-sha',
   },
+  dagger: {},
   editorConfig: {},
   eslint: {
     // Lint with the working tree rather than the last release.
