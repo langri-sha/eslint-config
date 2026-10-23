@@ -15,7 +15,7 @@ const project = new Project({
     keywords: ['eslint', 'eslint-config', 'flat-config', 'typescript'],
     license: 'MIT',
     licensed: true,
-    minNodeVersion: '24.16.0',
+    minNodeVersion: '24.22.1',
     peerDependencyOptions: {
       pinnedDevDependency: false,
     },
