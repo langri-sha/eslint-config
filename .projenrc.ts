@@ -84,6 +84,7 @@ const project = new Project({
     // Lint with the working tree rather than the last release.
     extends: './src/index.js',
   },
+  githubTemplates: {},
   husky: {
     'pre-commit': 'lint-staged',
   },
