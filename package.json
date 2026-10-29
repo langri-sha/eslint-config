@@ -47,7 +47,7 @@
     "eslint-plugin-react-hooks": "7.1.1",
     "eslint-plugin-unicorn": "78.0.0",
     "globals": "17.13.0",
-    "typescript-eslint": "8.72.0"
+    "typescript-eslint": "8.72.1"
   },
   "devDependencies": {
     "@langri-sha/lint-staged": "0.9.11",
