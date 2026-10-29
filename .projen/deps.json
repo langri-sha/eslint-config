@@ -132,7 +132,7 @@
     },
     {
       "name": "typescript-eslint",
-      "version": "8.72.0",
+      "version": "8.72.1",
       "type": "runtime"
     }
   ],
