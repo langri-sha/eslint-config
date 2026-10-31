@@ -39,7 +39,6 @@ const project = new Project({
       '@langri-sha/projen-project@*',
       '@langri-sha/tsconfig@1.1.1',
       '@langri-sha/vitest@0.2.3',
-      'vitest@5.0.5',
     ],
     peerDeps: ['eslint@^10.4.0'],
   },
@@ -119,6 +118,7 @@ const project = new Project({
       include: ['src'],
     },
   },
+  vitest: true,
   worktrunk: {},
   skills: {
     ignore: false,
