@@ -3,8 +3,7 @@ import js from '@eslint/js'
 import { importX } from 'eslint-plugin-import-x'
 import jsdoc from 'eslint-plugin-jsdoc'
 import prettier from 'eslint-plugin-prettier/recommended'
-import reactRuntime from 'eslint-plugin-react/configs/jsx-runtime.js'
-import react from 'eslint-plugin-react/configs/recommended.js'
+import react from 'eslint-plugin-react'
 import reactHooks from 'eslint-plugin-react-hooks'
 import unicorn from 'eslint-plugin-unicorn'
 import globals from 'globals'
@@ -12,8 +11,8 @@ import ts from 'typescript-eslint'
 
 export default [
   js.configs.recommended,
-  ...fixupConfigRules(react),
-  ...fixupConfigRules(reactRuntime),
+  ...fixupConfigRules(react.configs.flat.recommended),
+  ...fixupConfigRules(react.configs.flat['jsx-runtime']),
   reactHooks.configs.flat.recommended,
   {
     settings: {
