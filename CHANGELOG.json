@@ -2,6 +2,271 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Sat, 31 Oct 2026 17:00:37 GMT",
+      "version": "0.11.0",
+      "tag": "@langri-sha/eslint-config_v0.11.0",
+      "comments": {
+        "none": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Declare the create-commit and create-pr skills"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Commit the create-commit and create-pr skills"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Let the preset supply the config packages"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Link the contributing guide from the readme"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Pin skills to v1.0.0"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Let the preset supply Vitest"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Keep the Dagger files out of the package"
+          },
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Stop Claude Code adding attribution to commits and pull requests"
+          }
+        ],
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.12"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.4"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "chore(deps): update dependency @langri-sha/projen-project to v0.38.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.4.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.4.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency vitest to v5.0.5"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.11"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.6"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency vitest to v5.0.4"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency typescript-eslint to v8.72.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update langri-sha/skills digest to c0cb19c"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency typescript-eslint to v8.71.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency langri-sha/skills to v1.1.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "fix(deps): update dependency eslint-plugin-jsdoc to v65.3.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency typescript-eslint to v8.72.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update langri-sha/skills digest to 14548e6"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.15"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency pnpm to v12.16.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency pnpm to v12.16.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency pnpm to v12.14.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-unicorn to v78"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.3.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency @langri-sha/projen-project to v0.39.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-prettier to v5.5.7"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update langri-sha/skills digest to e860a9b"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency @langri-sha/projen-project to v0.40.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency eslint-plugin-jsdoc to v65.4.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency @langri-sha/projen-project to v0.42.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency @langri-sha/projen-project to v0.43.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency pnpm to v12.13.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Update dependency pnpm to v12.15.0"
+          }
+        ],
+        "minor": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "4fafebcb84d07027701cb074442494f7fd307391",
+            "comment": "Require Node.js 24.22.1, which fixes CVE-2026-111497"
+          }
+        ]
+      }
+    },
+    {
       "date": "Wed, 14 Oct 2026 00:17:50 GMT",
       "version": "0.10.0",
       "tag": "@langri-sha/eslint-config_v0.10.0",

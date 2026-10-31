@@ -1,7 +1,0 @@
-{
-  "type": "none",
-  "comment": "Commit the create-commit and create-pr skills",
-  "packageName": "@langri-sha/eslint-config",
-  "email": "filip.dupanovic@gmail.com",
-  "dependentChangeType": "none"
-}

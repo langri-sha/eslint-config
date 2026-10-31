@@ -1,8 +1,52 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Wed, 14 Oct 2026 00:17:50 GMT and should not be manually modified. -->
+<!-- This log was last generated on Sat, 31 Oct 2026 17:00:37 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.11.0
+
+Sat, 31 Oct 2026 17:00:37 GMT
+
+### Minor changes
+
+- Require Node.js 24.22.1, which fixes CVE-2026-111497 (filip.dupanovic@gmail.com)
+
+### Patches
+
+- Update dependency eslint-plugin-jsdoc to v65.3.12
+- Update dependency eslint-plugin-jsdoc to v65.3.4
+- chore(deps): update dependency @langri-sha/projen-project to v0.38.2
+- Update dependency eslint-plugin-jsdoc to v65.4.2
+- Update dependency eslint-plugin-jsdoc to v65.4.1
+- Update dependency vitest to v5.0.5
+- Update dependency eslint-plugin-jsdoc to v65.3.11
+- Update dependency eslint-plugin-jsdoc to v65.3.6
+- Update dependency vitest to v5.0.4
+- Update dependency typescript-eslint to v8.72.0
+- Update langri-sha/skills digest to c0cb19c
+- Update dependency typescript-eslint to v8.71.2
+- Update dependency langri-sha/skills to v1.1.0
+- Update dependency eslint-plugin-jsdoc to v65.3.1
+- fix(deps): update dependency eslint-plugin-jsdoc to v65.3.0
+- Update dependency typescript-eslint to v8.72.1
+- Update langri-sha/skills digest to 14548e6
+- Update dependency eslint-plugin-jsdoc to v65.3.15
+- Update dependency pnpm to v12.16.0
+- Update dependency pnpm to v12.16.1
+- Update dependency pnpm to v12.14.0
+- Update dependency @langri-sha/projen-project to v0.42.1
+- Update dependency eslint-plugin-unicorn to v78
+- Update dependency eslint-plugin-jsdoc to v65.3.2
+- Update dependency @langri-sha/projen-project to v0.39.0
+- Update dependency eslint-plugin-prettier to v5.5.7
+- Update langri-sha/skills digest to e860a9b
+- Update dependency @langri-sha/projen-project to v0.40.0
+- Update dependency eslint-plugin-jsdoc to v65.4.0
+- Update dependency @langri-sha/projen-project to v0.42.0
+- Update dependency @langri-sha/projen-project to v0.43.0
+- Update dependency pnpm to v12.13.0
+- Update dependency pnpm to v12.15.0
 
 ## 0.10.0
 
