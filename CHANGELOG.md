@@ -1,8 +1,20 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Sat, 31 Oct 2026 17:00:37 GMT and should not be manually modified. -->
+<!-- This log was last generated on Sun, 01 Nov 2026 00:57:34 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.12.0
+
+Sun, 01 Nov 2026 00:57:34 GMT
+
+### Minor changes
+
+- Use eslint-plugin-react's flat configs (filip.dupanovic@gmail.com)
+
+### Patches
+
+- Update dependency @langri-sha/projen-project to v0.47.0
 
 ## 0.11.0
 

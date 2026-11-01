@@ -2,6 +2,29 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Sun, 01 Nov 2026 00:57:34 GMT",
+      "version": "0.12.0",
+      "tag": "@langri-sha/eslint-config_v0.12.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "d2b6950ac7eed381ad220c356d253d79f766130d",
+            "comment": "Update dependency @langri-sha/projen-project to v0.47.0"
+          }
+        ],
+        "minor": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "d2b6950ac7eed381ad220c356d253d79f766130d",
+            "comment": "Use eslint-plugin-react's flat configs"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sat, 31 Oct 2026 17:00:37 GMT",
       "version": "0.11.0",
       "tag": "@langri-sha/eslint-config_v0.11.0",
