@@ -37,7 +37,7 @@ const project = new Project({
     ],
     devDeps: [
       '@langri-sha/projen-project@*',
-      '@langri-sha/tsconfig@1.1.1',
+      '@langri-sha/tsconfig@2.0.0',
       '@langri-sha/vitest@0.2.3',
     ],
     peerDeps: ['eslint@^10.4.0'],
