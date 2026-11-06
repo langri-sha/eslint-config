@@ -2,6 +2,73 @@
   "name": "@langri-sha/eslint-config",
   "entries": [
     {
+      "date": "Fri, 06 Nov 2026 21:59:22 GMT",
+      "version": "0.13.0",
+      "tag": "@langri-sha/eslint-config_v0.13.0",
+      "comments": {
+        "patch": [
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.1"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency pnpm to v12.17.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency globals to v17.14.0"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency @langri-sha/projen-project to v0.48.3"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency @langri-sha/tsconfig to v2"
+          },
+          {
+            "author": "email not defined",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Update dependency @langri-sha/projen-project to v0.49.1"
+          }
+        ],
+        "none": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Upgrade to TypeScript 6"
+          }
+        ],
+        "minor": [
+          {
+            "author": "filip.dupanovic@gmail.com",
+            "package": "@langri-sha/eslint-config",
+            "commit": "b895f24ae96bf9228f95d3e2b8f7cc1bc38a9770",
+            "comment": "Enforce type-only imports"
+          }
+        ]
+      }
+    },
+    {
       "date": "Sun, 01 Nov 2026 00:57:34 GMT",
       "version": "0.12.0",
       "tag": "@langri-sha/eslint-config_v0.12.0",

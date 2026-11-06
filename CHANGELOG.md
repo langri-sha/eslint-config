@@ -1,8 +1,26 @@
 # Change Log - @langri-sha/eslint-config
 
-<!-- This log was last generated on Sun, 01 Nov 2026 00:57:34 GMT and should not be manually modified. -->
+<!-- This log was last generated on Fri, 06 Nov 2026 21:59:22 GMT and should not be manually modified. -->
 
 <!-- Start content -->
+
+## 0.13.0
+
+Fri, 06 Nov 2026 21:59:22 GMT
+
+### Minor changes
+
+- Enforce type-only imports (filip.dupanovic@gmail.com)
+
+### Patches
+
+- Update dependency @langri-sha/projen-project to v0.48.1
+- Update dependency pnpm to v12.17.0
+- Update dependency @langri-sha/projen-project to v0.48.2
+- Update dependency globals to v17.14.0
+- Update dependency @langri-sha/projen-project to v0.48.3
+- Update dependency @langri-sha/tsconfig to v2
+- Update dependency @langri-sha/projen-project to v0.49.1
 
 ## 0.12.0
 
