@@ -42,7 +42,7 @@ export default [
     },
     rules: {
       // Built-ins.
-      'no-duplicate-imports': 'error',
+      'no-duplicate-imports': ['error', { allowSeparateTypeImports: true }],
       'sort-imports': [
         'error',
         {
@@ -52,10 +52,19 @@ export default [
       ],
 
       // Contributing.
+      '@typescript-eslint/consistent-type-imports': [
+        'error',
+        {
+          prefer: 'type-imports',
+          fixStyle: 'separate-type-imports',
+          disallowTypeAnnotations: false,
+        },
+      ],
       '@typescript-eslint/no-empty-object-type': [
         'error',
         { allowInterfaces: 'with-single-extends' },
       ],
+      '@typescript-eslint/no-import-type-side-effects': 'error',
       '@typescript-eslint/no-unused-vars': [
         'error',
         {
