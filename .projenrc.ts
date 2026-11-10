@@ -26,7 +26,7 @@ const project = new Project({
       '@eslint/compat@2.1.1',
       '@eslint/js@10.0.1',
       'eslint-config-prettier@10.1.8',
-      'eslint-plugin-import-x@4.17.1',
+      'eslint-plugin-import-x@4.18.0',
       'eslint-plugin-jsdoc@65.4.5',
       'eslint-plugin-prettier@5.5.7',
       'eslint-plugin-react@7.37.5',
