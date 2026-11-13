@@ -33,7 +33,7 @@ const project = new Project({
       'eslint-plugin-react-hooks@7.1.1',
       'eslint-plugin-unicorn@78.0.0',
       'globals@17.14.0',
-      'typescript-eslint@8.72.1',
+      'typescript-eslint@8.72.2',
     ],
     devDeps: [
       '@langri-sha/projen-project@*',
