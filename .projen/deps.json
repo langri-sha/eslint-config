@@ -97,7 +97,7 @@
     },
     {
       "name": "eslint-plugin-jsdoc",
-      "version": "65.4.5",
+      "version": "65.4.6",
       "type": "runtime"
     },
     {
